@@ -1,5 +1,6 @@
 import express from 'express'; // Importa o framework Express para criar o servidor
 import cors from 'cors'; // Importa o middleware CORS para permitir requisições externas
+import os from 'os'; // Importa o módulo OS para obter informações do sistema operacional
 
 const app = express(); //Cria a aplicação servidor
 
